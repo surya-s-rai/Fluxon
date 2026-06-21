@@ -59,17 +59,16 @@ Converts tiny charge generted by the peizoelectric sensors into a measurable vol
  5. Power Supply Check
  Apply 3.3V Supply according to `.kicad_sch` file and verify 3.3V rail across each IC.
 
- 6.Firware Installation
+ 6. Firware Installation
 
  Required Software
  * Visual Studio Code Editor
  * PlatformIO Extension
  * Texas Instruments MSP430 Toolchain
 
- 7.Build and Upload Firware
+ 7. Build and Upload Firware
 
- * Open Firmware folder and run it on CLI
- `pio run`
+ * Open Firmware folder and run `pio run` on CLI
 
  * Use upload Button on PlatformIO in order to upload the programme
   
