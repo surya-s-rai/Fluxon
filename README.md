@@ -1,1 +1,1 @@
-<img width="540" height="829" alt="fallout&#39;26_zine" src="https://github.com/user-attachments/assets/4f9863bd-9d11-418a-935d-dddeb5d7742b" />
+<img width="540" height="829" alt="Zine" src="https://github.com/user-attachments/assets/eaf1ff35-3a0c-4616-86d3-dcac96252f5d" />
