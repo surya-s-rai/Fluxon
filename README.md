@@ -79,9 +79,9 @@ Converts tiny charge generted by the peizoelectric sensors into a measurable vol
  * Use upload Button on PlatformIO in order to upload the programme
 
   ## Credit
-  I thank this project to-
-  [Kicad](https://www.kicad.org/)
-  [HackClub Fallout](https://fallout.hackclub.com)
+  I thank this project to-\
+  [Kicad](https://www.kicad.org/)\
+  [HackClub Fallout](https://fallout.hackclub.com)\
   my beloved parents and friends...
  
  
