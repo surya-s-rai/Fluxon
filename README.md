@@ -25,6 +25,11 @@ Converts tiny charge generted by the peizoelectric sensors into a measurable vol
 <img width="1014" height="820" alt="image" src="https://github.com/user-attachments/assets/aa8c10e4-79cb-4f79-93b5-d5771b04f43a" />
 
  ## What's inside this folder
+ # PCB Files
+ `flux logger project.kicad_sch`-contains an illustrative layout of parts and wires used in the project\
+ `flux logger project.kicad_pcb`\-The actual pcb layout with all components placed and routed\
+ `BOM updated1.xlsx`-Bill of materials with all parts 
+ 
  
 
  
