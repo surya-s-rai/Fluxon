@@ -61,7 +61,7 @@ Converts tiny charge generted by the peizoelectric sensors into a measurable vol
 
  6. Firware Installation
 
- Required Software
+   Required Software
  * Visual Studio Code Editor
  * PlatformIO Extension
  * Texas Instruments MSP430 Toolchain
