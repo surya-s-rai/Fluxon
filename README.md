@@ -5,7 +5,7 @@
 Fluxon - A PVDF Sensor based Flux logger that collects collision data, a especailly designed payload for cubeSat exterior\
 Collects useful data values once embedded on side walls of the satellite as shown in the Zine page above. 
  ## Why I made this
- I made this project for a hardware hackathon called fallout organised by [Hack Club](https://github.com/hackclub), and particularly i choosed to make this Iot device as i wanted to make a prototype of something real that is used in spacecrafts.
+ I made this project for a hardware hackathon called fallout organised by [Hack Club](https://github.com/hackclub), and particularly i choosed to make this Iot device as i wanted to make a prototype of something real used in spacecrafts.
  ## How it works
  The payload is mainly divided into 4 major chunks-/
  ### 1. Sensor Frontend (Impact Detection Hardware)
