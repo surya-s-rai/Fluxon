@@ -25,10 +25,56 @@ Converts tiny charge generted by the peizoelectric sensors into a measurable vol
 <img width="1014" height="820" alt="image" src="https://github.com/user-attachments/assets/aa8c10e4-79cb-4f79-93b5-d5771b04f43a" />
 
  ## What's inside this folder
- # PCB Files
+ # PCB Files:
  `flux logger project.kicad_sch`-contains an illustrative layout of parts and wires used in the project\
+ <img width="1166" height="797" alt="image" src="https://github.com/user-attachments/assets/abe98c51-2612-43f5-a112-66fb6d45fb3a" />
+
  `flux logger project.kicad_pcb`\-The actual pcb layout with all components placed and routed\
+ 
+ <img width="982" height="820" alt="image" src="https://github.com/user-attachments/assets/4a2a69ac-9b31-41ac-98d9-6eb163553131" />
+ 
  `BOM updated1.xlsx`-Bill of materials with all parts 
+ <img width="1862" height="621" alt="image" src="https://github.com/user-attachments/assets/8ff124d1-da61-4c2b-8bc6-aa3ef9158764" />
+
+ # Firware:
+ `Firmware` folder contains hardware specific C codes for parts to operate
+ 
+ # Other files
+ `Flux logger project.kicad_pro`-links `kicad_sch` and `kicad_pcb` files.
+ 
+ `ChargeAmplifier.kicad_sch`,`TPS_Vin.kicad_sch` and`Thre_comp.Kicad_sch` are sub parts of main schema file i.e. `flux logger project.Kicad_sch` 
+ ## Build Guide
+ 1. Replicate the Repository into your local environment
+ 
+ 2. View `flux logger project.kicad_sch`,`flux logger project.kicad_pcb` along with the pcb's 3D View on [Kicad](https://www.kicad.org/)
+ 
+ 3. PCB Assembly
+ Solder components in the following order:
+ resistors and capacitors,Sensor, ADA4530-1, MSP430, W25Q128JV, Connectors and testpoints
+
+ 4. Check High Impedance Areas
+ Ensure gaurd ring surrounding Amplifier and Sensor input traces.
+ Also, keep sensor input clean and isolated.
+
+ 5. Power Supply Check
+ Apply 3.3V Supply according to `.kicad_sch` file and verify 3.3V rail across each IC.
+
+ 6.Firware Installation
+
+ Required Software
+ * Visual Studio Code Editor
+ * PlatformIO Extension
+ * Texas Instruments MSP430 Toolchain
+
+ 7.Build and Upload Firware
+
+ * Open Firmware folder and run it on CLI
+ `pio run`
+
+ * Use upload Button on PlatformIO in order to upload the programme
+  
+  
+
  
  
 
