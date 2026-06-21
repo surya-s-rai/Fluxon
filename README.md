@@ -10,30 +10,36 @@ Collects useful data values once embedded on side walls of the satellite as show
  The payload is mainly divided into 4 major chunks-
  ### 1. Sensor Frontend (Impact Detection Hardware)
 Converts tiny charge generted by the peizoelectric sensors into a measurable voltage.
+
 <img width="1938" height="1057" alt="image" src="https://github.com/user-attachments/assets/1fe7e593-6a07-4d5a-b506-2516fa067ced" />
 
  ### 2. Signal Conditioning
- Gives Amplified, noise reduced input for Microcontroller unit.
+ Gives Amplified, noise reduced input for Microcontroller unit. 
+ 
  <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/b78b373f-7ada-4b57-9368-d0b9582891c0" />
 
  ### 3. Microcontroller and Firmware
- Processes sensor data and uses specific codes that brigdes the hardware requirements
+ Processes sensor data and uses specific codes that brigdes the hardware requirements.
+ 
 <img width="1507" height="850" alt="image" src="https://github.com/user-attachments/assets/c0cac099-c382-40d2-b949-dafbb01d92a3" />
 
  ### 4. Data Storage System
- Uses W25Q128JV to store collected events
+ Uses W25Q128JV to store collected events.
+ 
 <img width="1014" height="820" alt="image" src="https://github.com/user-attachments/assets/aa8c10e4-79cb-4f79-93b5-d5771b04f43a" />
 
  ## What's inside this folder
  # PCB Files:
- `flux logger project.kicad_sch`-contains an illustrative layout of parts and wires used in the project\
+ `flux logger project.kicad_sch`-contains an illustrative layout of parts and wires used in the project
+ 
  <img width="1166" height="797" alt="image" src="https://github.com/user-attachments/assets/abe98c51-2612-43f5-a112-66fb6d45fb3a" />
 
- `flux logger project.kicad_pcb`\-The actual pcb layout with all components placed and routed\
+ `flux logger project.kicad_pcb`\-The actual pcb layout with all components placed and routed
  
  <img width="982" height="820" alt="image" src="https://github.com/user-attachments/assets/4a2a69ac-9b31-41ac-98d9-6eb163553131" />
  
- `BOM updated1.xlsx`-Bill of materials with all parts 
+ `BOM updated1.xlsx`-Bill of materials with all parts
+ 
  <img width="1862" height="621" alt="image" src="https://github.com/user-attachments/assets/8ff124d1-da61-4c2b-8bc6-aa3ef9158764" />
 
  # Firware:
@@ -61,7 +67,7 @@ Converts tiny charge generted by the peizoelectric sensors into a measurable vol
 
  6. Firware Installation
 
-   Required Software
+ #### Required Software
  * Visual Studio Code Editor
  * PlatformIO Extension
  * Texas Instruments MSP430 Toolchain
