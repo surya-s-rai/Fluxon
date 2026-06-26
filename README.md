@@ -1,6 +1,8 @@
 # Fluxon
 ## Project Overview
-<img width="540" height="829" alt="fallout&#39;26_zine" src="https://github.com/user-attachments/assets/325fc100-ea2f-47fb-bc4b-7e50ff91f847" />
+<p align="center">
+ <img width="540" height="829" alt="fallout&#39;26_zine" src="https://github.com/user-attachments/assets/325fc100-ea2f-47fb-bc4b-7e50ff91f847" >
+</p>
 <br><br>
 
 __Fluxon__ - A PVDF Sensor based Flux logger that collects collision data, a especailly designed payload for CubeSat\
