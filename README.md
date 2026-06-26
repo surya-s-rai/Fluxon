@@ -1,12 +1,24 @@
 # Fluxon
 ## Project Overview
 <img width="540" height="829" alt="fallout&#39;26_zine" src="https://github.com/user-attachments/assets/325fc100-ea2f-47fb-bc4b-7e50ff91f847" />
+<br><br>
+
+__Fluxon__ - A PVDF Sensor based Flux logger that collects collision data, a especailly designed payload for CubeSat\
+Collects useful data values once embedded on side walls of the satellite as shown in the Zine page above.
+<br><br>
+<img width="1022" height="868" alt="image" src="https://github.com/user-attachments/assets/15b6236f-fb06-4f9d-8ec1-6b8362df2056" />
 
 
-Fluxon - A PVDF Sensor based Flux logger that collects collision data, a especailly designed payload for cubeSat exterior\
-Collects useful data values once embedded on side walls of the satellite as shown in the Zine page above. 
  ## Why I made this
  I made this project for a hardware hackathon called fallout organised by [Hack Club](https://github.com/hackclub), and particularly choosed to make this Iot device as i wanted to make a prototype of something real used in spacecrafts.
+ ## Why it is relevant
+ * Scientific value: Current flux models like [ORDEM](https://orbitaldebris.jsc.nasa.gov/modeling/ordem.html) and [MASTER](https://conference.sdo.esoc.esa.int/proceedings/sdc3/paper/92/SDC3-paper92.pdf) rely mainly on simulations and ground based radar data. A physical sensor mounted on small satellite misson measures impact data better than any simulation can replicate.
+ * Cost effective: Commercial impact detectors used in experiments cost thousands of dollars, whereas Fluxon is an open source, low cost substitute PCB board.
+ * Mechanical compatibility with real CubeSats: The 60mm x 60mm form factor matches the standard face panel dimensions of CubeSat.
+ * Solar powered: The SPV1040 maximum power point tracker(MPPT) harvests energy form solar cell and charges the supercapacitor which reduces the burden of holding a separate battery into a small scale satellite.
+ * Mass-frequency distribution: This statistically relevant distribution is obtained from the measured peak voltage which is proportional to mechanical impulse delivered on the aluminium face panel.
+ * Flux density: The DS3231 which is a highly accurate real time clock(RTC) helps us to measure particle flux in units of particles per area per second. Flux density is meaningful beacause it varies with orbital altitude, inclination and the time of year(the earth's debris envionment is not uniform).
+ * Impact direction: If we embed Fluxon on each face panel of CubeSat, we can calculate angular distribution of impact using parameters like time difference between sensor pairs, speed of sound in aluminium (6320 m/s) and known sensor geometry.
  ## How it works
  The payload is mainly divided into 4 major chunks-
  ### 1. Sensor Frontend (Impact Detection Hardware)
@@ -31,23 +43,23 @@ Converts tiny charge generted by the peizoelectric sensors into a measurable vol
 
  ## What's inside this folder
  # PCB Files:
- `flux logger project.kicad_sch`-contains an illustrative layout of parts and wires used in the project
+ `* flux logger project.kicad_sch`-contains an illustrative layout of parts and wires used in the project
  
  <img width="1166" height="797" alt="image" src="https://github.com/user-attachments/assets/abe98c51-2612-43f5-a112-66fb6d45fb3a" />
 
- `flux logger project.kicad_pcb`\-The actual pcb layout with all components placed and routed
+ `* flux logger project.kicad_pcb`\-The actual pcb layout with all components placed and routed
  
  <img width="982" height="820" alt="image" src="https://github.com/user-attachments/assets/4a2a69ac-9b31-41ac-98d9-6eb163553131" />
  
- `BOM updated1.xlsx`-Bill of materials with all parts
+ `* BOM updated1.xlsx`-Bill of materials with all parts
  
  <img width="1862" height="621" alt="image" src="https://github.com/user-attachments/assets/8ff124d1-da61-4c2b-8bc6-aa3ef9158764" />
 
  # Firware:
- `Firmware` folder contains hardware specific C codes for parts to operate
+ `* Firmware` folder contains hardware specific C codes for parts to operate
  
  # Other files
- `Flux logger project.kicad_pro`-links `kicad_sch` and `kicad_pcb` files.
+ `* Flux logger project.kicad_pro`-links `kicad_sch` and `kicad_pcb` files.
  
  `ChargeAmplifier.kicad_sch`,`TPS_Vin.kicad_sch` and`Thre_comp.Kicad_sch` are sub parts of main schema file i.e. `flux logger project.Kicad_sch` 
  ## Build Guide
@@ -55,7 +67,7 @@ Converts tiny charge generted by the peizoelectric sensors into a measurable vol
  
  2. View `flux logger project.kicad_sch`,`flux logger project.kicad_pcb` along with the pcb's 3D View on [Kicad](https://www.kicad.org/)
  
- 3. PCB Assembly
+ 3. PCB Assembly\
  Solder components in the following order:
  resistors and capacitors,Sensor, ADA4530-1, MSP430, W25Q128JV, Connectors and testpoints
 
