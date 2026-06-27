@@ -82,7 +82,7 @@ Converts tiny charge generted by the peizoelectric sensors into a measurable vol
  5. Power Supply Check
  Apply 3.3V Supply according to `.kicad_sch` file and verify 3.3V rail across each IC.
 
- 6. Firware Installation
+ 6. Firmware Installation
 
  #### Required Software
  * Visual Studio Code Editor
