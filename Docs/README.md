@@ -53,7 +53,8 @@ Converts tiny charge generted by the peizoelectric sensors into a measurable vol
 
  `* flux logger project.kicad_pcb`\-The actual pcb layout with all components placed and routed
  
- <img width="982" height="820" alt="image" src="https://github.com/user-attachments/assets/4a2a69ac-9b31-41ac-98d9-6eb163553131" />
+<img width="897" height="802" alt="image" src="https://github.com/user-attachments/assets/7b8e82c6-8028-4aab-8983-cb4f05a9d170" />
+
  
  
  
