@@ -1,7 +1,11 @@
 # Fluxon
 ## Project Overview
 <p align="center">
-<img width="540" height="829" alt="fallout&#39;26 zine" src="https://github.com/user-attachments/assets/cb8a3d84-cd27-463f-b567-25654c44a3a7" />
+
+<img width="1688" height="2589" alt="fallout zine1" src="https://github.com/user-attachments/assets/992f89fa-2963-4940-acd3-725d5a1ccb0a" />
+
+
+
 
 </p>
 <br><br>
