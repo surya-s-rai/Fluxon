@@ -9,7 +9,8 @@
 __Fluxon__ - A PVDF Sensor based Flux logger that collects collision data, a especailly designed payload for CubeSat\
 Collects useful data values once embedded on side walls of the satellite as shown in the Zine page above.
 <br><br>
-<img width="1022" height="868" alt="image" src="https://github.com/user-attachments/assets/15b6236f-fb06-4f9d-8ec1-6b8362df2056" />
+<img width="867" height="867" alt="image" src="https://github.com/user-attachments/assets/56ceeae7-de43-4637-a41e-dbeec7a8c554" />
+
 
 
  ## Why I made this
