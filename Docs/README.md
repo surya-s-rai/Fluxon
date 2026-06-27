@@ -55,7 +55,7 @@ Converts tiny charge generted by the peizoelectric sensors into a measurable vol
  
  <img width="982" height="820" alt="image" src="https://github.com/user-attachments/assets/4a2a69ac-9b31-41ac-98d9-6eb163553131" />
  
- `* BOM(CSV).csv`-Bill of materials with all parts
+ 
  
 
  # Firmware:
