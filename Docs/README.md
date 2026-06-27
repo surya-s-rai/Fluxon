@@ -59,7 +59,7 @@ Converts tiny charge generted by the peizoelectric sensors into a measurable vol
  
  <img width="1862" height="621" alt="image" src="https://github.com/user-attachments/assets/8ff124d1-da61-4c2b-8bc6-aa3ef9158764" />
 
- # Firware:
+ # Firmware:
  `* Firmware` folder contains hardware specific C codes for parts to operate
  
  # Other files
