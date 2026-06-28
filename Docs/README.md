@@ -2,7 +2,8 @@
 ## Project Overview
 <p align="center">
 
-<img width="1688" height="2589" alt="fallout zine1" src="https://github.com/user-attachments/assets/992f89fa-2963-4940-acd3-725d5a1ccb0a" />
+<img width="2251" height="3452" alt="Zine page" src="https://github.com/user-attachments/assets/e3c87520-2379-44dd-8650-c8e6bd062d29" />
+
 
 
 
